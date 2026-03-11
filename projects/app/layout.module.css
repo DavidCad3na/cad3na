@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  font-size: 0.8rem;
+  color: var(--muted);
+  transition: color 0.15s;
+}
+
+.links a:hover { color: var(--text); }
+
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
