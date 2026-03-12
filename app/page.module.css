@@ -112,15 +112,19 @@
   animation: fadeUp 0.9s 0.12s ease-out both;
   position: relative;
   z-index: 1;
-  min-width: 300px;
+  min-width: 350px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
 }
 
 .findMeLabel {
-  font-size: 0.7rem;
+  font-size: 1.05rem;
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.35);
+  color: #fff;
 }
 
 .linkList {
@@ -135,13 +139,13 @@
   gap: 2rem;
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--border);
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  color: var(--muted);
-  transition: color 0.15s, padding-left 0.18s;
+  color: rgba(255,255,255,0.72);
+  transition: padding-left 0.18s;
 }
 
-.linkItem:hover { color: var(--text); padding-left: 0.5rem; }
+.linkItem:hover { padding-left: 0.5rem; }
 
 .arrow {
   color: var(--accent);
