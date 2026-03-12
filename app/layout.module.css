@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  bottom: 4vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  background: var(--accent);
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 4rem;
+  box-shadow: 0 0 20px rgba(232,76,34,.35), 0 0 7px rgba(0,0,0,.25);
+  padding: 7px;
+  gap: 0;
+  white-space: nowrap;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  display: block;
+  padding: 0.5em 1.5em;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fff;
+  border-radius: 3rem;
+  transition: background 0.15s;
+}
+
+.navLink:hover {
+  background: rgba(255,255,255,.15);
+}
+
+.sep {
+  display: block;
+  width: 2px;
+  height: 14px;
+  background: rgba(255,255,255,.3);
+  transform: rotate(20deg);
+  flex-shrink: 0;
+}

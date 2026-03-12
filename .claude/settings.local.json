@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:plusanton.com)",
+      "Bash(curl -s https://plusanton.com/en)",
+      "Bash(curl -s https://plusanton.com/assets/min/styles.min.css?v=cf8dad938fd955be7b033ff0cc648575)"
+    ]
+  }
+}
