@@ -12,6 +12,10 @@ export default function RootLayout({ children }) {
       <body>
         <nav className={styles.nav}>
           <a href="/" className={styles.brand}>blog.cad3na.io</a>
+          <div className={styles.links}>
+            <a href="/guides">guides</a>
+            <a href="/reviews">reviews</a>
+          </div>
         </nav>
         <main className={styles.main}>{children}</main>
       </body>

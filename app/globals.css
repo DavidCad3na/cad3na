@@ -4,7 +4,7 @@
 
 :root {
   --bg: #000;
-  --accent: #E84C22;
+  --accent: rgb(232, 76, 34);
   --accent-light: #FFA35D;
   --text: #fff;
   --muted: #999;

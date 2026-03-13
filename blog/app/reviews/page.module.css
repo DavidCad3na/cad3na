@@ -47,6 +47,12 @@
   letter-spacing: 0.04em;
 }
 
+.stars {
+  color: var(--accent-light);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
 .cardTitle {
   font-size: 1rem;
   font-weight: 500;
